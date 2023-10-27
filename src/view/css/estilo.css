@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap');
+
+:root {
+    --cor01: #65B95E;
+    --cor02: #1E8B15;
+    --cor03: #B4FFE4;
+    --cor04: #761B1B;
+    --cor05: #532222;
+}
+
+body {
+    background-image: url('/assets/_imagem/zoro2.png'); /* Insira o caminho da sua imagem de fundo */
+    background-size: cover; /* Ajustar a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evitar repetições da imagem */
+}
+
+.cadastro-container {
+    background-color: var(--cor01); /* Cor de fundo da área de cadastro */
+    border-radius: 30px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.form-control {
+    border-radius: 80px; /* Borda arredondada para campos de entrada */
+    background-color: var(--cor03); /* Cor de fundo para os campos de entrada */
+    font-family: 'Kanit', sans-serif;
+}
+
+.form-control:focus {
+    background-color: var(--cor03); /* Cor de fundo para campos de entrada quando focados */
+
+}
+
+h1, .label-text {
+    color: var(--cor04);
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+ /* Estilizar o botão "Cadastrar" */
+ .btn-cadastrar {
+    background-color: var(--cor02); /* Cor de fundo do botão */
+    color: var(--cor05); /* Cor do texto do botão */
+    border: none; /* Remover a borda */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaçamento interno (tamanho) */
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Estilizar o botão "Cadastrar" no hover */
+.btn-cadastrar:hover {
+    color: var(--cor0); /* Cor do texto quando o mouse passa por cima */
+}
