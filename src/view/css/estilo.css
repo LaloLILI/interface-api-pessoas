@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('/interface-api-pessoas/assets/_imagem/zoro2.png'); /* Insira o caminho da sua imagem de fundo */
+    background-image: url('/assets/_imagem/zoro2.png'); /* Insira o caminho da sua imagem de fundo */
     background-size: cover; /* Ajustar a imagem para cobrir todo o fundo */
     background-repeat: no-repeat; /* Evitar repetições da imagem */
 }
